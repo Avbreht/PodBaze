@@ -1,4 +1,4 @@
-SELECT naslov, leto * zasluzek * dolzina AS Produkt
+SELECT naslov, (zasluzek) / dolzina AS Produkt
 FROM film
 -- uredimo po zaslužku
 ORDER BY Produkt DESC
