@@ -1,0 +1,5 @@
+SELECT naslov, leto * zasluzek * dolzina AS Produkt
+FROM film
+-- uredimo po zaslužku
+ORDER BY Produkt DESC
+LIMIT 1
